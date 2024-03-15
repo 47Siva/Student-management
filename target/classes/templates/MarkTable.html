@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Student Management System</title>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Student Management system</a>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+       <form action="/studentlogin" method="get">
+                    <button type="submit" class="btn btn-primary">Stdent View Results</button>
+                </form>
+      </li>
+    </ul>
+  </div>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	  <ul class="navbar-nav ml-auto"> <!-- Add ml-auto class for right alignment -->
+            <li class="nav-item">
+                <form action="/eventTable" method="get">
+                    <button type="submit" class="btn btn-primary">Event registration</button>
+                </form>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto"> <!-- Add ml-auto class for right alignment -->
+            <li class="nav-item">
+                <form action="/logoutStudent" method="get">
+                    <button type="submit" class="btn btn-primary">Logout</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="container text-center mt-4">
+        <h1>PONNAIYAH RAMAJAYAM INSTITUTE OF SCIENCE & TECHNOLOGY(PRIST)</h1>
+        <h4>Thanjavur - Trichy Highways, Vallam, Thanjavur,Tamil Nadu 613403</h4>
+        <h2>BACHELOR OF COMPUTER APPLICATION</h2>
+    </div>
+
+    <div class="container">
+        </p>The institute was founded in 1985 by Prof. P. Murugesan. It was initially known as the Institute of Computer Science and Technology. Murugesan founded the institute to introduce computer education to the Thanjavur District. In 1988, the institute received affiliation from Bharathidasan University to offer postgraduate diploma programmes in computer applications. Thereafter it expanded to include an Arts and Science College, College of Engineering and Technology, College of Education, Research Institution, and Polytechnic College.</p>
+        
+
+       
+   
+
+</body>
+</html>
